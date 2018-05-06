@@ -1,0 +1,1 @@
+if pgrep urxvtd; then urxvtc -geometry 800x1+0+0 -fn '6x13' -sl 0 -e ~/stats.sh; else urxvtd -o -f && urxvtc -geometry 800x1+0+0 -fn '6x13' -sl 0 -e ~/stats.sh; fi
